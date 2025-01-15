@@ -4,7 +4,7 @@ console.log(result);
 
 //2
 const myEmail = "daniilbielevtsev@gmail.com";
-const contolEmail = Email.includes("@");
+const contolEmail = myEmail.includes("@");
 console.log(`Email містить символ'@'? - ${contolEmail}`);
 console.log(myEmail.length);
 
